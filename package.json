@@ -4,7 +4,8 @@
   "description": "A weather program using react.js.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Matthew Horine",
   "license": "ISC",
@@ -15,6 +16,9 @@
     "react-dom": "^0.14.7",
     "react-router": "^2.0.0",
     "request": "^2.81.0"
+  },
+  "engines": {
+    "node": "7.7.4"
   },
   "devDependencies": {
     "babel-core": "^6.5.1",
