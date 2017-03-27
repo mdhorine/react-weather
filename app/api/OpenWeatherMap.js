@@ -14,7 +14,6 @@ var OpenWeatherMap = function(location) {
     return new Promise(function(resolve, reject) {
         request(options, function(err, res, body) {
             console.log(res.statusCode);
-            debugger;
             if (res.statusCode == 200) {
                 console.log(body);
                 var weather = JSON.parse(body);

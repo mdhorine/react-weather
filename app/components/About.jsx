@@ -2,7 +2,7 @@ var React = require('react');
 
 var About = props => {
     return (
-        <div>
+        <div style={{paddingLeft:'50px'}}>
             <h3>About</h3>
             <p>Welcome to the About page.</p>
         </div>

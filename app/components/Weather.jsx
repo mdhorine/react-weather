@@ -8,7 +8,6 @@ var Weather = React.createClass({
         var {isLoading, location, temp} = this.state;
         return (
             <div>
-                <h3>Weather page</h3>
                 <WeatherForm updateLocation={this.handleUpdate}/>
                 <WeatherMessage location={location} temp={temp} isLoading={isLoading} className='float-center'/>
             </div>

@@ -5,8 +5,9 @@ var Main = props => {
     return (
         <div>
             <Nav />
-            <h2>Main component</h2>
-            {props.children}
+            <div style={{paddingTop: '25px'}}>
+                {props.children}
+            </div>
         </div>
     );
 };
