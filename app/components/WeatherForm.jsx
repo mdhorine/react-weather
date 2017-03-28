@@ -12,21 +12,13 @@ var WeatherForm = React.createClass({
     render: function() {
         return (
             <form onSubmit={this.submitForm}>
-                <div className='expanded row'>
-                    <div className='large-3 columns'>&nbsp;</div>
-                    <div className='large-6 columns float-center'>
-                        <label>Location
-                        <input type="text" ref='locationName' placeholder="Enter City Name"/>
-                        </label>               
-                    </div>
-                    <div className='large-3 columns'>&nbsp;</div>
+                <div>
+                    <label>Location
+                    <input type="text" ref='locationName' placeholder="Enter City Name"/>
+                    </label>               
                 </div>
-                <div className='expanded row'>
-                    <div className='large-3 columns'>&nbsp;</div>
-                    <div className='large-6 columns'>
-                        <input className='button float-center' type='submit' value='Get Weather' />
-                    </div>
-                    <div className='large-3 columns'>&nbsp;</div>
+                <div>
+                    <input className='button float-center' type='submit' value='Get Weather' />
                 </div>
             </form>
         );

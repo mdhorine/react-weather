@@ -5,8 +5,10 @@ var Main = props => {
     return (
         <div>
             <Nav />
-            <div style={{paddingTop: '25px'}}>
+            <div className='row'>
+                <div className='columns medium-6 large-4 small-centered'>
                 {props.children}
+                </div>
             </div>
         </div>
     );
