@@ -13,13 +13,9 @@ var WeatherMessage = ({isLoading, location, temp}) => {
     }
 
     return (
-        <div className='row'>
-            <div className='large-3 columns'>&nbsp;</div>
-            <div className='large-6 columns float-center'>
-                {renderMessage()}
-            </div>
-            <div className='large-3 columns'>&nbsp;</div>
-        </div>
+        <div className='text-center'>
+            {renderMessage()}
+         </div>
     );
 };
 
